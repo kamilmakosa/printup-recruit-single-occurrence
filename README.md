@@ -8,5 +8,7 @@ Rozwiązanie będzie uruchamiane w terminalu/konsoli.
 - jakość przedstawionego kodu
 - obecność/jakość przedstawionych testów
 
-# ROZWIĄZANIE #
-Link do repozytorium GIT z gotowym rozwiązaniem należy podać w formularzu https://goo.gl/forms/FT9qynVoBKiFKrvQ2
+# TESTOWANIE #
+```
+php test.php
+```

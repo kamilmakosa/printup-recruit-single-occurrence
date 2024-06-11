@@ -5,9 +5,13 @@
  * @param $input array Tablica liczb
  * @return array
  */
-public function findSingle(array $input): array
+function findSingle(array $input): array
 {
-	return [];
+	$uniqueInput = array_unique($input);
+
+	$notUniqueItems = array_diff_key($input, $uniqueInput);
+
+	return array_values(array_diff($uniqueInput, $notUniqueItems));
 }
 
 print_r(findSingle([1, 2, 3, 4, 1, 2, 3]));
